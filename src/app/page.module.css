@@ -1,0 +1,15 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(160, 91, 91);
+}
+.header{
+  color: #ffffff;
+  background-color: rgb(160, 91, 91);
+  min-height: 100vh;
+}
