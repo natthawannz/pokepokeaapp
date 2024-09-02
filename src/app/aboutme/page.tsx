@@ -9,16 +9,24 @@ export default function Page() {
         <div id="text-main" className={styles.textMain}>
           <h1 className={styles.about}>About Me</h1>
           <p className={styles.intro}>
-            ผม ชื่อง เป็นนักศึกษาในมหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย กำลังเรียนอยู่ชั้นปี 3
+            ชื่อ นางสาวณัฐวรรณ พวงมะลัย ชื่อเล่นพู่ อายุ 20ปี
           </p>  
           <p className={styles.description}>
-            เกิดปี 2003 ตอนนี้กำลังเรียนอยู่ชั้นปี 3 สาขาเอกวิทยาการคอมพิมเตอร์และสารสนเทศ ชีวิตประจำวันชอบนอนดูหนัง เล่นเกม ผมเป็นคนที่ค่อนข้างเงียบ ไม่ชอบไปไหนถ้าไม่มีตังแฮะๆ
+            ศึกษาอยู่คณะสหวิทยาการ สาขาวิทยาการคอมพิวเตอร์และสารสนเทศ 
+            </p>
+            <p> ระดับปริญญาตรี ชั้นปีที่ 3</p>
+          
+          <p className={styles.intro}>
+            ภูมิลำเนาอยู่ที่ </p>
+
+           <p className={styles.description}>
+            บ้านหนองโน ตำบลรอบเมือง อำเภอหนองพอก จังหวัดร้อยเอ็ด
           </p>
         </div>
 
         <div id="img-main" className={styles.imgMain}>
           <Image 
-            className={styles.witchaphon} 
+            className={styles.pf} 
             src={img}
             alt="Profile Image"
             width={300}
